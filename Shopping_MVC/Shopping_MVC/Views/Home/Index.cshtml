@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+<div class="text-center">
+    <h1 class="display-4">Welcome to our Online Market </h1>
+    <a href="/User/Login" class="btn btn-action">User Login</a>
+    <a href="/User/Signin" class="btn btn-action">User Signup</a>
+    <a href="/Admin/Login" class="btn btn-action">Admin Login</a>
+</div>
+
+<style>
+    .text-center {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .display-4 {
+        font-size: 2.5rem;
+        font-weight: 300;
+        margin-bottom: 20px;
+    }
+
+    .btn-action {
+        display: inline-block;
+        margin: 10px;
+        padding: 15px 25px;
+        font-size: 1rem;
+        font-weight: bold;
+        text-align: center;
+        text-decoration: none;
+        color: #fff;
+        background-color: #007bff;
+        border-radius: 5px;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-action:hover {
+            background-color: #0056b3;
+            transform: scale(1.05);
+        }
+
+        .btn-action:active {
+            background-color: #004085;
+            transform: scale(1);
+        }
+</style>
